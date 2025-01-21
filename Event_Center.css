@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    background-color: lightgrey;
+    font-family: "Moderustic", serif;
+  }
+  
+  .nav {
+    overflow: hidden;
+    background-color: white;
+    position:sticky;
+    top: 0;
+    overflow: hidden;
+ 
+
+  }
+  
+  .nav a {
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    margin-right: 25px;
+
+  }
+  
+  .nav a:hover {
+    background-color: darkgrey;
+    color: blue;
+  }
+  
+  .nav a.active {
+    background-color: white;
+    color: blue;
+
+  }
+  
+  .nav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+.alpha {
+    color: blue;
+    font-family: "Moderustic", serif;
+    text-align: center;
+}
+p {
+    color: black;
+    font-size: larger;
+    text-align:center
+
+}
+ .stadium {
+    position: relative;
+    z-index: 1000px;
+ 
+
+}
+ .stadium iframe {
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right:10px;
+    width: 95%;
+    z-index: 1000px;
+
+ }
+
+ .container {
+    margin-left:30px;
+    margin-top: 400px;
+    
+    
+ }
+
+ .container img {
+    border-radius: 25px;
+    width: 450px;
+    height: 300px;
+    justify-content: space-between;
+    
+ }
