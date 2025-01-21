@@ -4,6 +4,16 @@ body {
     background-color: lightgrey;
     font-family: "Moderustic", serif;
   }
+
+  nav {
+   overflow: hidden;
+   background-color: white;
+   position:sticky;
+   top: 0;
+   overflow: hidden;
+   z-index: 1000px; 
+  }
+
   
   .nav {
     overflow: hidden;
@@ -11,6 +21,7 @@ body {
     position:sticky;
     top: 0;
     overflow: hidden;
+    z-index: 1000px;
  
 
   }
@@ -78,7 +89,7 @@ p {
 }
  .stadium {
     position: relative;
-    z-index: 1000px;
+    
  
 
 }
@@ -88,7 +99,7 @@ p {
     margin-left: 30px;
     margin-right:10px;
     width: 95%;
-    z-index: 1000px;
+    z-index: 1;
 
  }
 
@@ -106,3 +117,8 @@ p {
     justify-content: space-between;
     
  }
+
+
+iframe {
+  z-index: 50;
+}

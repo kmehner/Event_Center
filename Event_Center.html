@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event Center</title>
-    <link href="Event_Center.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Event_Center.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-  <div class="nav" id="nav">
-  <a href="Event_Center.html" class="active">AT&ampT Cowboys Stadium</a>
-  <a href="Event_Center.html">Home</a>
-  <a href="Events.html">Events</a>
-  <a href="bars.html">Bars</a>
-  <a href="location.html">Location</a>
-  <a href="contact.html">Contact Us</a>
-</div>
-<div>
-    <div class ="alpha" id="alpha">
-    <h1>Welcome to AT&ampT Stadium</h1>
-    <p>Home of the Cowboys</p>
-    </div>
-    <div class="stadium" id="stadium">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/WVrlCB5PZsQ?si=qJyefKmd8Luo9bXx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-</div>
-<div class="container" id-"container">
-    <img src="KidRock.jpg" id="KidRock" style="auto">
-    <img src="monster.jpg" id="monster" style="auto">
-    <img src="Stadium_club.jpg" id="stadium" style="auto">
-    <img src="basketballStadium.jpg" id="basketball" style="auto">
-  </div>
-<script>
-function myFunction() {
-  var x = document.getElementById("nav");
-  if (x.className === "nav") {
-    x.className += " responsive";
-  } else {
-    x.className = "nav";
-  }
-}
-</script>
-       
+    <nav class="nav" id="nav">
+      <a href="Event_Center.html" class="active">AT&ampT Cowboys Stadium</a>
+      <a href="Event_Center.html">Home</a>
+      <a href="Events.html">Events</a>
+      <a href="bars.html">Bars</a>
+      <a href="location.html">Location</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
 
+    <main>
+      <div class="hero">
+        <div class="alpha" id="alpha">
+          <h1>Welcome to AT&ampT Stadium</h1>
+          <p>Home of the Cowboys</p>
+        </div>
+        <div class="stadium" id="stadium">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/WVrlCB5PZsQ?si=qJyefKmd8Luo9bXx"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
 
+      <div class="container" id-"container">
+        <img src="KidRock.jpg" id="KidRock" style="auto" />
+        <img src="monster.jpg" id="monster" style="auto" />
+        <img src="Stadium_club.jpg" id="stadium" style="auto" />
+        <img src="basketballStadium.jpg" id="basketball" style="auto" />
+      </div>
 
+    </main>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("nav");
+        if (x.className === "nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav";
+        }
+      }
+    </script>
   </body>
-  </html>
+</html>
